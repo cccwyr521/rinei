@@ -15,8 +15,7 @@ class ToolsOss
     {
         //获取oss的配置信息
         $config = \Config::get('oss');
-        $accessKeyId = $config['LTAIK3TepzwxPN5O'];//访问阿里云access权限的账号id
-        $accessKeySecret = $config['MoAc6PLRm8dFUJTWY9iVnAd60fWT1x'];//访问阿里云access权限的账号密钥
+        
         $this->endpoint = $config['endpoint'];//权限的节点信息
         $this->bucket = $config['heweju'];//存储空间的名字
         try{
